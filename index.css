@@ -19,6 +19,10 @@ input{
 }
 body{
     background-color: rgb(127, 241, 127);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
 }
 .button1{
     display: flex;
