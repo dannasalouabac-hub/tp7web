@@ -15,10 +15,10 @@ input{
     width: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: black;
+    background-color: rgb(68, 30, 30);
 }
 body{
-    background-color: rgb(28, 175, 28);
+    background-color: rgb(127, 241, 127);
 }
 .button1{
     display: flex;
