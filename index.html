@@ -8,13 +8,13 @@
 </head>
 <body>
     <h1>Welcome to My Website</h1>
-    <form class="form">
+    <form class="form" onsubmit="Signup(event)">
         <input id="name" type="text" placeholder="votre nom">
         <input id="email" type="email" placeholder="votre email">
         <input id="password" type="password" placeholder="votre mot de passe">
         <input id="age" type="number" placeholder="votre age">
     <div class="button1">
-        <button id="button">Envoyer</button>
+        <button id="button" type="submit">Envoyer</button>
     </div>
     </form>
     <script src="./index.js"></script>

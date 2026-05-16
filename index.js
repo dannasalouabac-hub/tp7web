@@ -11,7 +11,7 @@ console.log(inputage);
 console.log(submit);
 
 
-submit.addEventListener("click",function(event){
+function Signup(event){
     event.preventDefault();
     console.log("button clicked");
     console.log("name:"+ inputname.value);
@@ -21,4 +21,4 @@ submit.addEventListener("click",function(event){
 
 
     alert("name:"+ inputname.value +"\n"+"email:"+ inputemail.value +"\n"+"password:"+ inputpassword.value +"\n"+"age:"+ inputage.value);
-});
+};
