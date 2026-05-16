@@ -11,7 +11,7 @@ console.log(inputage);
 console.log(submit);
 
 
-function Signup(event){
+function Signup(event){/*submit.addEventListener("click",function(event){*/
     event.preventDefault();
     console.log("button clicked");
     console.log("name:"+ inputname.value);
